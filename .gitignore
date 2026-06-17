@@ -1,0 +1,21 @@
+# Secret keys — NEVER upload these
+.env
+
+# Python auto-generated cache files — not needed
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment — everyone creates their own locally
+venv/
+.venv/
+
+# Pytest cache
+.pytest_cache/
+
+# Streamlit secrets (alternative to .env for Streamlit Cloud)
+.streamlit/secrets.toml
+
+# OS junk files
+.DS_Store
+Thumbs.db

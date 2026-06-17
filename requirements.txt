@@ -1,0 +1,31 @@
+# ── Web UI ────────────────────────────────────
+streamlit>=1.32.0           # builds the web interface
+
+# ── Data handling ──────────────────────────────
+pandas>=2.0.0               # DataFrame operations (read CSV, manipulate data)
+numpy>=1.24.0               # Numeric operations (needed by pandas & scipy)
+openpyxl>=3.1.0             # Read Excel files (.xlsx)
+pyarrow>=14.0.0             # Read Parquet files
+tabulate>=0.9.0             # Convert DataFrames to markdown tables
+
+# ── AI / LLM ───────────────────────────────────
+google-generativeai>=0.8.0  # Gemini API (SQL generation, insights)
+
+# ── Statistics ─────────────────────────────────
+scipy>=1.11.0               # Z-score and statistical functions
+
+# ── Visualisation ──────────────────────────────
+plotly>=5.18.0              # Interactive charts (bar, line, scatter, etc.)
+kaleido>=0.2.1              # Export Plotly charts as PNG (used in PDF)
+
+# ── PDF Export ─────────────────────────────────
+reportlab>=4.0.0            # Generate PDF documents
+
+
+
+# ── Environment Variables ──────────────────────
+python-dotenv>=1.0.0        # Read .env file into Python
+
+# ── Testing ────────────────────────────────────
+pytest>=8.0.0               # Run unit tests
+pytest-mock>=3.12.0         # Mock external calls in tests (e.g. Gemini API)

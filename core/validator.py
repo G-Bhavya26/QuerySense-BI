@@ -64,7 +64,7 @@ def validate_sql(sql: str) -> str:
     sql = strip_markdown(sql)
 
     if not sql:
-        raise ValueError("The generated query was empty.")
+        raise ValueError("SQL is an empty query — nothing was generated.")
 
     # 2. Check the very first word
     # This regex looks for the first actual word in the text
